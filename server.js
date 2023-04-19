@@ -11,7 +11,7 @@ const dboptions = {
     host: 'localhost',
     PORT: 3306,
     user: 'root',
-    password: 'admin',
+    password: '',
     database: 'db_libreria'
 }
 
@@ -32,3 +32,6 @@ app.use('/libros', routes)
 app.listen(app.get('port'), ()=> {
     console.log('Server is running on port', app.get('port'))
 })
+
+
+/// WS SOAP con node js 
