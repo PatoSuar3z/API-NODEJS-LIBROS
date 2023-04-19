@@ -1,0 +1,122 @@
+
+###
+GET http://localhost:9000/libros HTTP/1.1
+
+###
+GET http://localhost:9000/libros/10 HTTP/1.1
+
+
+###
+DELETE http://localhost:9000/libros/3 HTTP/1.1
+
+###
+PUT http://localhost:9000/libros/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "El Quijote",
+    "autor": "Cervantes",
+    "editorial": "Alianza",
+    "isbn": 9786074531411,
+    "paginas": 1088,
+    "precio": 17000,
+    "fecha": "2015-01-01",
+    "genero": "Novela",
+    "idioma": "Español",
+    "foto": "https://imag.lecturalia.com/img/libro/don-quijote-de-la-mancha-8154.jpg"
+}
+
+###
+POST http://localhost:9000/libros HTTP/1.1
+Content-Type: application/json
+
+#{
+#     "titulo": "El Quijote",
+#     "autor": "Cervantes",
+#     "editorial": "Alianza",
+#     "isbn": 9786074531411,
+#     "paginas": 1088,
+#     "precio": 15990,
+#     "fecha": "2015-01-01",
+#     "genero": "Novela",
+#     "idioma": "Español",
+#     "foto": "https://imag.lecturalia.com/img/libro/don-quijote-de-la-mancha-8154.jpg"
+# },
+# {
+#     "titulo": "El Señor de los Anillos",
+#     "autor": "J.R.R. Tolkien",
+#     "editorial": "Minotauro",
+#     "isbn": "9780544003415",
+#     "paginas": 1216,
+#     "precio": 45200,
+#     "fecha": "2015-01-01",
+#     "genero": "Fantasia",
+#     "idioma": "Español",
+#     "foto": "https://imag.lecturalia.com/img/libro/el-senor-de-los-anillos-37.jpg"
+# }
+# {
+#     "titulo": "El Hobbit",
+#     "autor": "J.R.R. Tolkien",
+#     "editorial": "Minotauro",
+#     "isbn": 9780547928227,
+#     "paginas": 328,
+#     "precio": 15690,
+#     "fecha": "2015-01-01",
+#     "genero": "Fantasia",
+#     "idioma": "Español",
+#     "foto": "https://imag.lecturalia.com/img/libro/el-hobbit-26.jpg"
+# }
+
+# {
+#     "titulo": "El Principito",
+#     "autor": "Antoine de Saint-Exupéry",
+#     "editorial": "Minotauro",
+#     "isbn": 9780156012195,
+#     "paginas": 120,
+#     "precio": 8200,
+#     "fecha": "2015-01-01",
+#     "genero": "Fantasia",
+#     "idioma": "Español",
+#     "foto": "https://imag.lecturalia.com/img/libro/el-principito-1535.jpg"
+# }
+
+# {
+#     "titulo": "El Alquimista",  
+#     "autor": "Paulo Coelho",
+#     "editorial": "Rayo",
+#     "isbn": 9780062511409,
+#     "paginas": 208,
+#     "precio": 8510,
+#     "fecha": "2015-01-01",
+#     "genero": "Novela",
+#     "idioma": "Español",
+#     "foto": "https://imag.lecturalia.com/img/libro/el-alquimista-9.jpg"
+# }
+# {
+#     "titulo": "El Poder",
+#     "autor": "Rhonda Byrne",
+#     "editorial": "Minotauro",
+#     "isbn": 9781451620962,
+#     "paginas": 240,
+#     "precio": 15690,
+#     "fecha": "2015-01-01",
+#     "genero": "Novela",
+#     "idioma": "Español",
+#     "foto": "https://imag.lecturalia.com/img/libro/el-poder-52768.jpg"
+# }
+{
+    "titulo": "El Arte de la Guerra",
+    "autor": "Sun Tzu",
+    "editorial": "Gredos",
+    "isbn": 9788424935759,
+    "paginas": 240,
+    "precio": 6830,
+    "fecha": "2015-01-01",
+    "genero": "Estrategia militar",
+    "idioma": "Español",
+    "foto": "https://imag.lecturalia.com/img/libro/el-arte-de-la-guerra-6987.jpg"
+}
+
+
+
+
